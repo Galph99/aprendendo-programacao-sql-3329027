@@ -20,3 +20,7 @@ ALTER TABLE nova_salario_classe RENAME TO salario_classe;
 -- adicionar id_salario na tabela employees
 ALTER TABLE employees
 ADD id_salario INTEGER;
+
+-- adicionar id_salario na tabela employees
+ALTER TABLE salario_classe
+RENAME COLUMN id TO id_salario;
