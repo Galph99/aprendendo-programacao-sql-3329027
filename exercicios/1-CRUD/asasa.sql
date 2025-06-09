@@ -1,0 +1,5 @@
+CREATE TABLE teste_tabela(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+nome TEXT,
+data DATE
+);
