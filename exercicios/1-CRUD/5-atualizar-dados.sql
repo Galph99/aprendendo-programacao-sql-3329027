@@ -14,3 +14,15 @@ WHERE EmployeeID = 2;
 UPDATE employees
 SET id_salario = 1
 WHERE id_salario IS NULL;
+
+-- Atualize
+UPDATE pratica
+SET data = CURRENT_DATE
+WHERE data IS NULL;
+
+
+-- Atualize
+UPDATE pratica
+SET data = '2020-11-20'
+WHERE valor >= 2;
+SELECT * FROM pratica;

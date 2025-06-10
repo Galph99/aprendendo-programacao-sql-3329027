@@ -9,3 +9,11 @@ VALUES
 INSERT INTO salario_classe(nivel, salario)
 VALUES
 ('especialista', 5000);
+
+-- Insira 
+INSERT INTO pratica (nome, valor)
+VALUES
+('Pedro',1.3),
+('Joao',2),
+('Maria',1),
+('Adalberto',22.4);

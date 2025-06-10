@@ -14,3 +14,10 @@ FROM
 tracks
 WHERE
 AlbumId = 1;
+
+-- consulta
+SELECT * FROM pratica
+WHERE valor > 1;
+
+SELECT nome, data FROM pratica
+WHERE valor > 1;
